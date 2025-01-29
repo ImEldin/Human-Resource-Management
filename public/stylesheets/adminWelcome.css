@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+body {
+    background: #f6f5f7;
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    margin-bottom: 30px;
+}
+
+.row {
+    margin-top: 8vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.col-xl {
+    height: 610px;
+    margin: 30px;
+    padding: 0;
+    border-radius: 30px;
+    position: relative;
+    background: white;
+    text-align: center;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.col-txt {
+    text-align: left;
+    padding: 17px;
+}
+
+.col-button {
+    text-align: right;
+    padding: 10px;
+}
+
+.top,
+.top1 {
+    width: 100%;
+    color: #FFFFFF;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background: linear-gradient(to right, #FF4B2B, #FF416C);
+}
+
+.top {
+    height: 35%;
+}
+
+.top1 {
+    height: 50%;
+}
+
+.bi-person-circle,
+.bi-person-fill-check {
+    font-size: 130px;
+    border: 5px solid white;
+    border-radius: 100%;
+    display: inline-block;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+}
+
+.bi-person-circle {
+    top: 35%;
+}
+
+.bi-person-fill-check {
+    top: 50%;
+}
+
+
+.user-data {
+    margin-top: 82px;
+}
+
+.user-data1 {
+    margin-top: 75px;
+    margin-bottom: 25px;
+}
+
+.option,
+.option1 {
+    background: #ededed;
+    width: 90%;
+    height: 10%;
+    margin: 12px auto;
+    border-radius: 10px;
+}
+
+.icon {
+    position: relative;
+    display: inline-flex;
+    height: 40px;
+    width: 80px;
+    color: #ffffff;
+    background: #d02a2a;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: transform 80ms ease-in;
+}
+
+.icon:active {
+    transform: scale(0.95);
+}
+
+.frame {
+    background: linear-gradient(to right, #FF4B2B, #FF416C);
+    color: #FFFFFF;
+    width: 94%;
+    height: 96%;
+    border-radius: 30px;
+    margin: 10px auto;
+}
+
+.frame .option {
+    background: #ededed;
+    color: black;
+    width: 90%;
+    height: 10%;
+    margin: 12px auto;
+    border-radius: 10px;
+}
+
+.frame .option-icon {
+    color: white;
+    margin: 12px auto 35px;
+    padding-top: 20px;
+    font-size: 120px;
+}
+
+.frame .txt-icon {
+    font-size: 50px;
+}
+
+.title{
+    padding-top: 35px;
+    margin-bottom: 55px;
+}
