@@ -80,6 +80,24 @@ Human-Resource-Management/
 - **JWT-Based Authentication**: Users are authenticated via JWT tokens, stored in cookies for session persistence.
 - **Password Hashing**: BCrypt.js is used to hash passwords before storing them in the database.
 - **Role-Based Access Control**: Middleware ensures that only admins can create, update, and delete job listings.
+- 
+## 📜 Installation and Setup
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/ImEldin/Human-Resource-Management.git
+   cd Human-Resource-Management
+   ```
+2. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
+   
+3. **Start the Application**:
+   ```bash
+   npm start
+   ```
+   The application will run at `http://localhost:3000`.
 
 ## 📋 Usage
 
